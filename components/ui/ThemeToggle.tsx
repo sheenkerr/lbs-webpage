@@ -28,7 +28,7 @@ export function ThemeToggle() {
     return <Button size="icon" disabled />;
   }
   return (
-    <Button size="icon" onClick={() => handleThemeToggle()}>
+    <Button size="icon" onClick={() => handleThemeToggle()} >
       {resolvedTheme === "dark" ? (
         <Sun className="rotate-0 scale-100 transition-all" />
       ) : (
